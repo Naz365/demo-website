@@ -15,7 +15,7 @@ body {
 
 nav a {
   text-decoration: none;
-  color: chartreuse;
+  color:#ffffff;
   font-size: 1.5rem;
   margin-right: 15px;
 }
@@ -23,6 +23,7 @@ nav {
   display: flex;
   justify-content: space-between;
   background-color: black;
+  padding:10px 15px ;
 }
 
 /* nav bar done */
@@ -108,4 +109,39 @@ hr {
 
 
 /* course design start */
+.courses{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-column-gap: 24px;
+  
+}
 
+ .course .course-banner img{
+  width: 224px;
+  height: 104px;
+ }
+ .course-aothur a{
+  text-decoration: none;
+  padding-bottom: 4.9px;
+ }
+ .course-info{
+   display: flex;
+   text-decoration: none;
+   align-items: center;
+
+ }
+ .fa-star.filled{
+   color: #ffc014;
+ }
+ .fa-star-half-alt.half-filled{
+  color: #ffc014;
+}
+.course-duration{
+  background-color: rgba(255, 201, 251, 0.644);
+  color: fuchsia;
+  border-radius: 15%;
+  margin-left: 22px;
+}
+.fa-clock{
+  color:fuchsia ;
+}
